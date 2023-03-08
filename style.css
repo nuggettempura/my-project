@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+input {
+    display: flex;
+    font: sans-serif;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px white solid transparent
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 20vh;
+    background: whitesmoke;
+}
