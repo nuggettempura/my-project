@@ -1,5 +1,8 @@
 console.log("My Project")
 
-function sum(num1, num2) {
-    return num1 + num2 
-}
+document.getElementById("add").onclick = function() {
+    var text = document.getElementById("input").value; 
+    var li = "<li>" + text + "</li>";
+    document.getElementById("list").innerHTML += li;
+    document.getElementById("input").value = ""; // clear the value
+  }
